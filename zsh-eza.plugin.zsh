@@ -8,9 +8,9 @@ fi
 
 ness_params="-AgMx --group-directories-first --hyperlink --icons --git -F=always --color=always --time-style='+%a %Y-%m-%d %H:%M '"
 # Create alias override commands using 'eza'
-alias k="eza -lah $ness_params"
-alias ks="eza $ness_params"
-alias kl="eza -l $ness_params"
-alias ka="eza -la $ness_params"
-alias kt="eza -lahs old $ness_params"
-alias ktree="eza -lah --tree --depth=2 $ness_params"
+alias l="eza -lah $ness_params"
+alias ls="eza $ness_params"
+alias ll="eza -l $ness_params"
+alias la="eza -la $ness_params"
+alias lt="eza -lahs old $ness_params"
+alias tree="eza -lah --tree --depth=2 $ness_params"
